@@ -1,0 +1,651 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.container
+{
+	width:100%;
+	height:auto;
+}
+.top
+{
+	width:100%;
+	height:30px;
+	background-color:#096;
+}
+.wrapper
+{
+	margin:0 auto;
+	width:900px;
+}
+.info
+{
+	width:400px;
+	height:30px;
+	float:left;
+}
+.msg
+{
+	
+	text-align:center;
+	width:30px;
+	height:30px;
+	float:left;
+}
+.msg img
+{
+	margin-top:5px;
+}
+.msg img:hover
+{
+	background-color:#CCC;
+	opacity:.5;
+	border-radius:2px;
+}
+.inform
+{
+	width:160px;
+	height:30px;
+	float:left;
+	position:relative;
+}
+.inform h3
+{
+	margin-top:5px;
+	font-size:16px;
+}
+.phone
+{
+	width:30px;
+	height:30px;
+	float:left;
+	position:relative;
+}
+.phone img
+{
+	margin-top:5px;
+}
+.phone img:hover
+{
+	background-color:#CCC;
+	opacity:.5;
+	border-radius:2px;
+}
+.number
+{
+	width:180px;
+	height:30px;
+	float:left;
+	position:relative;
+}
+.number h3
+{
+	margin-top:5px;
+	font-size:16px;
+}
+.s_city
+{
+	width:200px;
+	height:30px;
+	float:left;
+	position:relative;
+}
+.city
+{
+	width:200px;
+	height:30px;
+	background-color:rgba(0,0,0,0.1);
+	padding-left:30px;
+	color:#999;
+	font-size:20px;
+	border:none;
+}
+
+.btnn
+{
+	width:200px;
+	height:30px;
+	background-color:rgba(0,0,0,0.02);
+	padding-left:30px;
+	color:#600;
+	font-size:20px;
+	border:none;
+}
+
+.social
+{
+	width:300px;
+	height:30px;
+	float:left;
+	position:relative;
+}
+.social img
+{
+	border-radius:5px;
+	background-color:rgba(60,40,0,0.2);
+}
+.social img:hover
+{
+	background-color:#CCC;
+	opacity:.5;
+}
+.header
+{
+	width:100%;
+	height:120px;
+	background-color:#696;
+}
+.logo
+{
+	width:150px;
+	height:120px;
+	float:left;
+}
+.logo img
+{
+	width:150px;
+	height:120px;
+}
+.title
+{
+	width:550px;
+	height:120px;
+	float:left;
+	position:relative;
+}
+
+.admin
+{
+	width:200px;
+	height:120px;
+	float:left;
+	position:relative;
+}
+.admin button
+{
+	margin-top:40px;
+	margin-left:10px;
+	border-radius:10px 10px;
+	width:80px;
+	height:30px;
+	color:#FFF;
+	background-color:#063;
+	font:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+.admin button b2
+{
+	
+	border-radius:5px;
+	width:110px;
+	height:30px;
+	position:fixed;
+}
+.admin input[type="button"]:hover
+{
+	/*font-size:16px;*/
+}
+.admin input[type="button"]
+{
+	margin-left:20px;
+	margin-top:20px;
+	width:100px;
+	height:25px;
+	border:1;
+	border-color:#000;
+	border-radius:5px;
+	box-shadow:2px 5px #003300;
+	background-color:transparent;
+	font-weight:bold;
+	color:#000;
+}
+.loginform
+{
+	width:300px;
+	height:200px;
+	background-color:#696;
+	z-index:9999;
+	position:absolute;
+	margin-left:900px;
+	display:none;
+	border:#000 solid;
+}
+.regform
+{
+	width:400px;
+	height:450px;
+	background-color:#696;
+	z-index:9999;
+	position:absolute;
+	margin-left:850px;
+	display:none;
+	border:#000 solid;
+}
+.addform
+{
+	width:450px;
+	height:390px;
+	background-color:#696;
+	z-index:9999;
+	position:absolute;
+	margin-left:850px;
+	display:none;
+	border:#000 solid;
+}
+h1
+{
+	text-align:center;
+	margin-top:35px;
+	color:#000;
+	text-shadow:0 5px 5px #000000;
+	font-size:34px;
+}
+.menu_box
+{
+	width:100%;
+	height:50px;
+	background-color:#F4F4F4;
+	
+}
+.menu
+{
+	width:900px;
+	height:50px;
+}
+.menu ul
+{
+	position:absolute;
+	list-style:none;
+	display:block;
+	margin:0;
+	padding-top:0;
+	z-index:999;
+}
+.menu ul li
+{
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background-color:rgba(0,0,0,.08);
+	width:146.5px;
+	height:49px;
+	text-align:center;
+	line-height:40px;
+	opacity:1;
+	border-radius:5px;
+}
+.menu ul li a
+{
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+}
+.menu ul li a:hover
+{
+	background-color:lightblue;
+	height:50px;
+	border-radius:5px;
+}
+.menu ul li ul
+{
+	padding-top:5px;
+	z-index:999;
+	position:absolute;
+}
+.menu ul li ul li
+{
+	display:none;
+	z-index:999;
+	border-radius:0px;
+}
+.menu ul li:hover ul li
+{
+	display:block;
+	z-index:999;
+}
+.banner_box
+{
+	width:100%;
+	height:400px;
+	background-color:#F4F4F4;
+}
+.banner
+{
+	width:900px;
+	height:400px;
+	float:left;
+}
+
+.content
+{
+	width:100%;
+	height:auto;
+	background-color:#F4F4F4;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.content h3
+{
+	padding-bottom:10px;
+	padding-left:5px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#066;
+	
+}
+.content1
+{
+	width:100%;
+	height:230px;
+	padding-top:5px;
+}
+.content_img
+{
+	width:300px;
+	height:200px;
+	float:left;	
+}
+.content_img img
+{
+	border-radius:10px;
+}
+.content_attrib
+{
+	width:600px;
+	height:auto;
+	float:left;
+	position:relative;
+}
+.content_attrib p
+{
+	font-size:20px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:justify;
+}
+.direction
+{
+	width:60px;
+	height:30px;
+	background-color:#663;
+}
+.dir
+{
+	width:30px;
+	height:30px;
+
+}
+/*.location
+{
+	width:auto;
+	height:30px;
+	margin-left:20px;
+	background-color:#063;
+	position:relative;
+	
+}
+.location img
+{
+	float:left;
+	margin:5px; 
+} */
+.content_attrib p img
+{
+	float:left;
+	margin:20px; 
+}
+
+
+.content2
+{
+	width:100%;
+	height:250px;
+
+}
+.content_attrib1
+{
+	width:600px;
+	height:auto;
+	float:left;
+}
+.content_attrib1 p
+{
+	font-size:20px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;
+	text-align:justify;
+}
+.content_img1
+{
+	width:300px;
+	height:200px;
+	float:left;
+	position:relative;
+}
+.content_img1 img
+{
+	border-radius:10px;
+}
+/*.location1
+{
+	width:auto;
+	height:30px;
+	margin-left:10px;
+	background-color:#063;
+}
+.location1 img
+{
+	float:left;
+	margin:5px; 
+} */
+
+.content3
+{
+	width:100%;
+	height:200px;
+}
+.content_img2
+{
+	width:300px;
+	height:200px;
+	float:left;
+}
+.content_img2 img
+{
+	border-radius:10px;
+}
+.content_attrib2
+{
+	width:600px;
+	height:200px;
+	float:left;
+	position:relative;
+}
+.content_attrib2 p
+{
+	font-size:20px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;
+	text-align:justify;
+}
+
+.footer
+{
+	width:100%;
+	height:60px;
+	background-color:#096;
+}
+.copy
+{
+	width:500px;
+	height:60px;
+	float:left;
+}
+.copy h3
+{
+	font-family:Arial;
+	font-size:14px;
+	color:#000;
+	font-weight:normal;
+	margin-top:20px;
+}
+.d-info
+{
+	width:400px;
+	height:60px;
+	float:left;
+	position:relative;
+}
+.info_by
+{
+	width:200px;
+	height:60px;
+	float:left;
+}
+.info_by h3
+{
+	margin-top:20px;
+	text-align:right;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+}
+.info_nm
+{
+	width:200px;
+	height:60px;
+	float:left;
+	position:relative;
+}
+.info_nm h3
+{
+	font-family:Arial;
+	font-size:16px;
+	font-weight:normal;
+	margin-top:20px;
+	margin-left:5px;
+	color:#000;
+}
+.contact
+{
+	width:900px;
+	height:440px;
+}
+.about
+{
+	width:900px;
+	height:auto;
+}
+
+.about p
+{
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:justify;
+	color:#666;
+}
+
+.information
+{
+	width:400px;
+	height:400px;
+	left:40px;
+	margin-left:20px;
+	float:left;
+}
+
+.information h3
+{
+	margin-top:60px;
+}
+.information p
+{
+	margin-top:20px;
+	font-family:Arial;
+	font-size:16px;
+}
+.information1
+{
+	float:left;
+	position:relative;
+	width:450px;
+	height:400px;
+	margin-left:20px;
+}
+.information1 form
+{
+	margin:40px;
+}
+
+.map_box
+{
+	width:100%;
+	height:400px;
+	background-color:#F4F4F4;
+}
+.map
+{
+	width:100%;
+	height:400px;
+}
+
+.gallery1
+{
+	width:100%;
+	height:auto;
+}
+/*.gallery2
+{
+	width:100%;
+	height:200px;
+} */
+.banner gallery1 img
+{
+	padding:10px;
+}
+/* district page css */
+.districtbox
+{
+	width:900px;
+	height:500px;
+/*	background-color:#399; */
+}
+.district
+{
+	float:left;
+	position:relative;
+	width:800px;
+	height:480px;
+	margin-left:50px;
+	margin-top:10px;
+	background-color:#CCC;
+	position:relative;
+	border:#000 solid;
+	border-radius:10px;
+}
+
+.district h2
+{
+	font-size:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#333;
+	margin-top:20px; 
+}
+.carbox
+{
+	width:100%;
+	height:auto;
+	padding-top:30px;
+	
+}
